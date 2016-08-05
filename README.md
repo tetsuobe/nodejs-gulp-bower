@@ -1,8 +1,8 @@
 # Node.js w/ Bower & Gulp runtime Dockerfile
 
-Can be pulled from dockerhub: [tetsuobe/nodejs-gulp-bower](https://hub.docker.com/r/tetsuobe/nodejs-gulp-bower/)
+Can be pulled from dockerhub: [tetsuobe/nodejs-gulp-bower-dockerimage](https://hub.docker.com/r/tetsuobe/nodejs-gulp-bower-dockerimage/)
 
-This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Gulp](http://gulpjs.com/) runtime for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/tetsuobe/nodejs-gulp-bower) published to the public [Docker Hub](https://hub.docker.com/).
+This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Gulp](http://gulpjs.com/) runtime for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/tetsuobe/nodejs-gulp-bower-dockerimage) published to the public [Docker Hub](https://hub.docker.com/).
 
 This image is a base image for easily running [Node.js](http://nodejs.org/) application.
 
@@ -20,12 +20,12 @@ This project heavily borrowed code from monostream's [monostream/nodejs-gulp-bow
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://hub.docker.com/r/tetsuobe/nodejs-gulp-bower) from public [Docker Hub](https://hub.docker.com/): 
+2. Download [automated build](https://hub.docker.com/r/tetsuobe/nodejs-gulp-bower-dockerimage) from public [Docker Hub](https://hub.docker.com/): 
 ```
-docker pull tetsuobe/nodejs-gulp-bower
+docker pull tetsuobe/nodejs-gulp-bower-dockerimage
 ```
 
    (alternatively, you can build an image from Dockerfile) 
    ```
-   docker build -t="tetsuobe/nodejs-gulp-bower" github.com/tetsuobe/nodejs-gulp-bower
+   docker build -t="tetsuobe/nodejs-gulp-bower-dockerimage" github.com/tetsuobe/nodejs-gulp-bower
    ```
